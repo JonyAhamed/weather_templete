@@ -166,7 +166,7 @@ class MyApp extends StatelessWidget {
                             ),
                             Text('28')
                           ],
-                        ),
+                        )
                       ),
                       Container(
                         margin: EdgeInsets.all(10),
