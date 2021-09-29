@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        // backgroundColor: Color(0xfbfafb),
+        backgroundColor: Color(0xfbfafb),
         appBar: AppBar(
           title: Text(
             'San Francisco',
