@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Color(0xfbfafb),
+        backgroundColor: Colors.white,
         appBar: AppBar(
           title: Text(
             'San Francisco',
@@ -35,8 +35,8 @@ class MyApp extends StatelessWidget {
                   // color: Color(0x98f2e7),
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   decoration:
-                  BoxDecoration(borderRadius: BorderRadius.circular(15)),
-                  child: Image.asset('images/cloude.png'),
+                      BoxDecoration(borderRadius: BorderRadius.circular(15)),
+                  child: Image.asset('images/cloud.png'),
                   margin: EdgeInsets.all(20),
                   width: 200,
                   height: 100,
@@ -148,26 +148,26 @@ class MyApp extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
-                        alignment: Alignment.bottomCenter,
-                        margin: EdgeInsets.all(10),
-                        width: 100,
-                        height: 120,
-                        decoration: BoxDecoration(
-                            color: Colors.black12,
-                            borderRadius: BorderRadius.circular(10)),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceAround,
-                          children: [
-                            Padding(padding: EdgeInsets.symmetric(vertical: 2)),
-                            Text('10.00am'),
-                            Icon(
-                              Icons.cloud_outlined,
-                              color: Colors.white,
-                            ),
-                            Text('28')
-                          ],
-                        )
-                      ),
+                          alignment: Alignment.bottomCenter,
+                          margin: EdgeInsets.all(10),
+                          width: 100,
+                          height: 120,
+                          decoration: BoxDecoration(
+                              color: Colors.black12,
+                              borderRadius: BorderRadius.circular(10)),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            children: [
+                              Padding(
+                                  padding: EdgeInsets.symmetric(vertical: 2)),
+                              Text('10.00am'),
+                              Icon(
+                                Icons.cloud_outlined,
+                                color: Colors.white,
+                              ),
+                              Text('28')
+                            ],
+                          )),
                       Container(
                         margin: EdgeInsets.all(10),
                         width: 100,
